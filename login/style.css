@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url(reset.css);
+
+body {
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(to right, #202063,#df6bff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-weight: bold;
+}
+
+.login-card {
+    width: 450px;
+    background: rgb(255,255,255, .5);
+    padding: 4em;
+    border-radius: 20px;
+    position: relative;
+}
+
+.login-card::before
+{
+    content: '';
+    position: absolute;
+    background: rgb(255,255,255, .15);
+    inset: 0;
+    transform: rotate(-5deg);
+    z-index: -1;
+    border-radius: 20px;
+}
+
+.login-card-logo {
+    margin-bottom: 2rem;
+}
+
+.login-card-logo img{
+    width: 60px;
+}
+
+.login-card-logo,.login-card-header,.login-card-footer
+{
+    text-align: center;
+}
+
+.login-card-a:hover
+{
+    text-decoration: underline;
+}
+
+.login-card-header{
+    margin-bottom: 2rem;
+}
+
+.login-card-header h1
+{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+
+.login-card-header
+{
+    font-size: calc(1rem * .8);
+    opacity: .8rem;
+}
+
+.login-card-form 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.login-card-form .checkbox
+{
+    display: flex;
+    align-items: center;
+    gap: 3px ;
+}
+
+.login-card-form .form-item-other
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: calc(1rem * .8);
+    margin-bottom: .5rem;
+}
+
+.login-card-footer{
+    margin-top: 1.5rem;
+    font-size: calc(1rem * .8);
+}
+
+.login-card input[type="text"],
+.login-card input[type="password"]
+{
+    border: 0;
+    outline: none;
+    background: rgba(255,255,255,.3);
+    padding: 1rem 1.5rem;
+    padding-left: calc(1rem * 3,5);
+    border-radius: 100px;
+    width: 100%;
+    font-family: "Poppins";
+    font-weight: bold;
+}
+
+.login-card input:focus
+{
+    background: white;
+}
+
+.login-card-SignIn-a
+{
+    padding: 1rem;
+    margin: 7rem;
+    background-color: #000;
+    border-radius: 100px ;
+    color: white;   
+    text-decoration: none;
+}
+
+.login-card-SignIn-a:hover
+{ 
+   background-color: rgb(72, 72, 72);
+}
+
+.login-card-a-svg 
+{
+    color:blue;
+    text-decoration: none;
+}
+.login-card-social-btn 
+{
+    padding-top: 2rem;
+}
+
+.login-card input[type="checkbox"]
+{
+    width: 16px;
+    height: 16px;
+    accent-color: black;
+}

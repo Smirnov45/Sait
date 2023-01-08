@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+body
+{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right,#f6a90e ,#f0c265);
+    font-family: "Poppins";
+}
+.bgcolor-menu-product
+{
+    background: linear-gradient(to right,#f6a90e ,#f0c265);
+    align-items: center;
+    justify-content: center;
+}
+.container
+{
+    background: white;
+    width: 1200px;
+    margin-left: 18%;
+    margin-top: 2%;
+    border-radius: 20px;
+    height: 1000px;
+    -webkit-box-shadow: -18px 10px 10px 8px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: -18px 10px 10px 8px rgba(34, 60, 80, 0.2);
+    box-shadow: -18px 10px 10px 8px rgba(34, 60, 80, 0.2);
+}
+
+.navbar-left a:hover
+{
+    color: rgb(65, 45, 21);
+}
+
+
+.navbar 
+{
+    padding: 20px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    -webkit-box-shadow: 0px 14px 20px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 14px 20px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 14px 20px 2px rgba(34, 60, 80, 0.2);
+    border-radius:20px;
+}
+
+.navbar-left-img 
+{
+    width: 80px;
+}
+
+.navbar-left a 
+{
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-left , .navbar-right
+{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left > * ,
+.navbar-right > *
+{
+    margin: 10px;
+}
+
+.navbar-right-find-a-store 
+{
+    display: flex;
+    align-items: center;
+    font-weight:bold;
+}
+
+.navbar-right-sing-in, .navbar-right-join-now
+{
+    font-weight: 500;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 5px 20px 5px 20px;
+    text-decoration: none;
+}
+.navbar-right-sing-in {
+    color: white;
+    background: black;
+}
+.navbar-right-join-now
+{
+    color: black;
+    background:white;
+}
+.navbar-right-join-now:hover 
+{
+    background: black;
+    color: white;
+}
+.navbar-right-sing-in:hover{
+    background: white;
+    color: black;
+}
+.navbar-right-find-a-store-a
+{
+    text-decoration: none;
+    color: black;
+}
+.navbar-right-find-a-store-a:hover
+{
+    text-decoration: underline 2px;
+}
+.product-left-img-coffee 
+{
+    max-width: 65%;
+    margin-left: 40%;
+    margin-top: 30px;
+
+}
+.product
+{
+    display: flex;
+}
+
+.product-right-title
+{
+    margin-top: 50px;
+    margin-left: 50%;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.product-right-description
+{
+    display: flex;
+    width: 54%;
+    align-items: center;
+    justify-content: center;
+    padding-left:33%;
+    margin-top: 30px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 19px;
+
+}
+
+.product-right-a
+{
+    display: flex;
+    margin-left:50.5% ;
+    margin-top: 50px;
+    border: 1px solid rgb(117, 81, 37);
+    padding: 5px 20px 5px 20px;
+    max-width: 100px;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 40px;
+    color: white;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    background: rgb(117, 81, 37);
+
+}
+
+.product-right-a:hover{
+    background: white;
+    color: black;
+    font: size 11px;
+    border-color: black ;
+    
+
+}
+
+.product-left-img-croissant-img 
+{
+    max-width: 45%;
+    margin-left: 40%;
+    margin-top: 60%;
+
+}
+.product-right-title-croissant
+{
+    margin-top: 20%;
+    margin-left: 50%;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.product-right-description-croissant
+{
+    display: flex;
+    width: 54%;
+    align-items: center;
+    justify-content: center;
+    padding-left:33%;
+    margin-top: 30px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 19px; 
+}
+
+.product-right-a-croissant
+{
+    display: flex;
+    margin-left:50.5% ;
+    margin-top: 50px;
+    border: 1px solid rgb(117, 81, 37);
+    padding: 5px 20px 5px 20px;
+    max-width: 100px;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 40px;
+    color: white;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    background: rgb(117, 81, 37);
+}
+.product-right-a-croissant:hover{
+    background: white;
+    color: black;
+    font: size 11px;
+    border-color: black ;
+    
+
+}
